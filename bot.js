@@ -415,17 +415,17 @@ client.on("message", message => {
       .setDescription(`
 
  _________________ 
-     1p
+     5p
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     rwskip
+     5skip
      تغير الأغنية
-     rwpause
+     5pause
      ايقاف الأغنية
-     rwresume
+     5resume
      مواصلة الأغنية
-     rwvol
+     5vol
    لتغيير درجه الصوت 1-9
-     rwstop
+     5stop
      خروج البوت من الروم
 
  `)
