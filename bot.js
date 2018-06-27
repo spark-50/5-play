@@ -385,7 +385,7 @@ function play(guild, song) {
 
 }
 
-const adminprefix = "rw";
+const adminprefix = "5";
 const devs = ['234454368072630283', '403312268223447040'];
 
 client.on('message', message => {
@@ -407,7 +407,7 @@ if(message.content === adminprefix + "restart") {
 
 
 client.on("message", message => {
- if (message.content === "Hhelp") {
+ if (message.content === "5help") {
         message.react("❤")
            message.react("📬")
   const embed = new Discord.RichEmbed() 
@@ -441,7 +441,7 @@ client.user.setPresence({
   status: 'online', //الحال
   game: {
      type: 0,
-     name: 'Pirates.🔥|rwhelp',    
+     name: 'Pirates.🔥|5help',    
      details: `🎈r-help🎈`,  
      url: 'http://twitch.tv/Streammingg',
      state: `.`,
